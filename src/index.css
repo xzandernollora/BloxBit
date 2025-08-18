@@ -5,4 +5,5 @@
 html,
 body {
   @apply min-h-screen bg-gradient-to-b from-[#1e293b] to-black;
+  scroll-behavior: smooth;
 }

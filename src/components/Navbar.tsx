@@ -26,10 +26,26 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex text-lg space-x-8 text-white font-bold font-googleSansCode">
-        <li className="hover:text-yellow-500 cursor-pointer">Home</li>
-        <li className="hover:text-yellow-500 cursor-pointer">Market</li>
-        <li className="hover:text-yellow-500 cursor-pointer">Choose us</li>
-        <li className="hover:text-yellow-500 cursor-pointer">Join</li>
+        <li>
+          <a href="#hero" className="hover:text-yellow-500 cursor-pointer">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#market" className="hover:text-yellow-500 cursor-pointer">
+            Market
+          </a>
+        </li>
+        <li>
+          <a href="#chooseus" className="hover:text-yellow-500 cursor-pointer">
+            Choose us
+          </a>
+        </li>
+        <li>
+          <a href="#join" className="hover:text-yellow-500 cursor-pointer">
+            Join
+          </a>
+        </li>
       </ul>
 
       {/* Desktop Social Buttons */}
