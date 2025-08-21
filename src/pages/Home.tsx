@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Market from "../components/Market";
 import Navbar from "../components/Navbar";
 import ChooseUs from "../components/ChooseUs";
+import Joinus from "../components/Joinus";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <Hero />
       <Market />
       <ChooseUs />
+      <Joinus />
     </div>
   );
 };
