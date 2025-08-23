@@ -22,6 +22,20 @@ const Home = () => {
         className="absolute right-0 top-[190px] md:bottom-[400px] md:right-[100px] w-20 h-20 md:w-[200px] md:h-[600px]"
       />
 
+      <Player
+        autoplay
+        loop
+        src="https://lottie.host/4927581a-df4e-48f7-a3ab-a7e71c8fc84e/1aFMOFuaRm.json"
+        className="absolute right-0 bottom-0 w-20 h-20 md:w-[500px] md:h-[600px]"
+      />
+
+      <Player
+        autoplay
+        loop
+        src="https://lottie.host/af9d8af4-4cac-4dec-bfa1-9652dd2c456d/JfgCD3U6CD.json"
+        className="absolute left-0 bottom-0 w-20 h-20 md:w-[400px] md:h-[500px]"
+      />
+
       <Navbar />
       <Hero />
       <Market />
